@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image/icon.png" type="image/x-icon">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,
+    700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    
+<!-----------header------------------->
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="club.html">CLUB</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us!</h1>
+        </section>
+
+
+<!-----------contact------------------->
+       <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.550436948975!2d72.82087437424961!3d18.99545175449822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce8c3f5c7fb7%3A0x500592b3a9556672!2sHigh%20Street%20Phoenix%20Car%20Parking%20At%20Rooftop!5e0!3m2!1sen!2sin!4v1735650988785!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       </section>
+
+       <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>ABC Road , XYZ Buliding </h5>
+                        <P>Mumbai, Maharashtra, India</P>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 12345 67890</h5>
+                        <P>Monday To Saturday, 10:30 AM To 5:00 PM</P>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@Fitness.com</h5>
+                        <P>Email For Any Problems</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="mail.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                    <textarea rows="8" placeholder="Message" name="message" required></textarea>
+                    <button type="submit" class="click-btn red-btn">Send Message</button>                
+                </form>
+            </div>
+            
+
+        </div>
+       </section>
+
+
+<!-----------footer------------------->
+
+    <section class="footer">
+        <h4>CONTACT US!</h4>
+        <p>WAVES GYM: A 20-YEAR FITNESS LEGACY<br>
+            Celebrating two decades of exceptional fitness, Waves Gym stands proudly at the forefront of wellness in the vibrant core. Spanning an impressive 10,000 sq.ft., our facility marks a significant milestone in the landscape of standalone boutique gyms.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i>2025 Fitness & Health Pvt. Ltd. All Rights Reserved.</p>
+    </section>
+<!-----------javascript------------------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+
+            
+        </script>
+</body>
+</html>

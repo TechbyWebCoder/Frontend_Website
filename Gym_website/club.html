@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image/icon.png" type="image/x-icon">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,
+    700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    
+<!-----------header------------------->
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="club.html">CLUB</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Club Pictures</h1>
+        </section>
+
+
+<!-----------Club Pictures------------------->
+
+        <section class="club">
+            <h1>CLUB PICTURES</h1>
+            <p>Premium high end fitness clubs with state of the art machines, equipment and training.</p>
+
+            <div class="row">
+                <div class="club-col">
+                    <img src="Image/club_pic1.png">
+                    <div class="layer">
+                    </div>
+                </div>
+
+                <div class="club-col">
+                    <img src="Image/club_pic2.png">
+                    <div class="layer">
+                    </div>
+                </div>
+
+                <div class="club-col">
+                    <img src="Image/club_pic3.png">
+                    <div class="layer">
+                </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="club-col">
+                    <img src="Image/club_pic4.png">
+                    <div class="layer">
+                    </div>
+                </div>
+
+                <div class="club-col">
+                    <img src="Image/club_pic5.png">
+                    <div class="layer">
+                    </div>
+                </div>
+
+                <div class="club-col">
+                    <img src="Image/club_pic6.png">
+                    <div class="layer">
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+<!-----------footer------------------->
+
+    <section class="footer">
+        <h4>ABOUT US!</h4>
+        <p>WAVES GYM: A 20-YEAR FITNESS LEGACY<br>
+            Celebrating two decades of exceptional fitness, Waves Gym stands proudly at the forefront of wellness in the vibrant core. Spanning an impressive 10,000 sq.ft., our facility marks a significant milestone in the landscape of standalone boutique gyms.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i>2025 Fitness & Health Pvt. Ltd. All Rights Reserved.</p>
+    </section>
+<!-----------javascript------------------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+
+            
+        </script>
+</body>
+</html>

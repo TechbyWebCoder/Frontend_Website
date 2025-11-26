@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Image/icon.png" type="image/x-icon">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,
+    700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>University Website</title>
+</head>
+<body>
+    
+<!-----------header------------------->
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="Image/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="club.html">CLUB</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certificate & Online Program For 2024</h1>
+        </section>
+
+
+<!-----------blog------------------->
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="Image/blog.png">
+                    <h2>Our Certificate & Online Program For 2024</h2>
+                    <p>In today’s fast-paced world, finding time for fitness can be a challenge, but it’s one of the most rewarding investments you can make for your health and well-being. At, we believe that a gym is more than just a place to exercise—it’s a community where you can transform your life, build confidence, and achieve your goals.</p>
+                        <br>
+                    <p>Walking into a gym can be intimidating, especially for beginners. But at, we pride ourselves on creating an inclusive and supportive environment for everyone, from fitness enthusiasts to those just starting their journey. Our space is designed to inspire and motivate, with state-of-the-art equipment, energetic group classes, and expert trainers ready to guide you every step of the way.</p>
+                        <br>
+                    <p>A Focus on Holistic Health
+                        Fitness isn’t just about physical activity; it’s a holistic lifestyle that encompasses mind, body, and soul. That’s why we go beyond workouts by offering resources for mental well-being, nutritional guidance, and recovery techniques. From yoga classes that help you find balance to workshops on meal planning, we aim to support your overall health journey.</p>
+                        <br>
+                    <p>One of the unique aspects of is the sense of camaraderie you’ll feel from the moment you walk through our doors. We host regular events, fitness challenges, and social gatherings to bring our members together and celebrate their achievements. It’s not just about individual success; it’s about building each other up and creating a network of support./p>
+
+
+                        <div class="comment-box">
+
+                            <h3>Leave A Comment</h3>
+
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your Comment"></textarea>
+                                <button type="submit" class="click-btn red-btn">Post Comment</button>
+
+                            </form>
+
+
+                        </div>
+
+
+                </div>
+                <div class="blog-right">
+                    <h3>POST CATEGORIES</h3>
+                    <div>
+                        <span>Exercise demonstrations</span>
+                    </div>
+                    <div>
+                        <span>Member shoutouts</span>
+                    </div>
+                    <div>
+                        <span>Stretching routines</span>
+                    </div>
+                    <div>
+                        <span>Healthy meal ideas</span>
+                    </div>
+                    <div>
+                        <span>Stress management tips</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+<!-----------footer------------------->
+
+    <section class="footer">
+        <h4>ABOUT US!</h4>
+        <p>WAVES GYM: A 20-YEAR FITNESS LEGACY<br>
+            Celebrating two decades of exceptional fitness, Waves Gym stands proudly at the forefront of wellness in the vibrant core. Spanning an impressive 10,000 sq.ft., our facility marks a significant milestone in the landscape of standalone boutique gyms.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <p><i class="fa fa-heart-o"></i>2025 Fitness & Health Pvt. Ltd. All Rights Reserved.</p>
+    </section>
+    
+<!-----------javascript------------------->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200px";
+            }
+
+            
+        </script>
+</body>
+</html>
