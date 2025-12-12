@@ -1,1 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Club Website</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+      <link rel="preload" as="image" href="Image/banner.png">
 
+</head>
+
+<body>
+
+
+<!-----------Header------------------->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">HobbyClub</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#membership" class="navbar-link" data-nav-link>Membership</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#Affiliation" class="navbar-link" data-nav-link>Affiliation</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#pictures" class="navbar-link" data-nav-link>Pictures</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="open"></ion-icon>
+
+        <ion-icon name="close-outline" aria-hidden="true" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-----------Home------------------->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+
+            <h1 class="h1 hero-title">"Discover, Create, and Connect: Join Our Hobby Club Today!"</h1>
+
+            <p class="section-text">
+              Join the Hobby Club: Explore passions, learn new skills, and connect with creative minds. Fun, inspiration, and growth await you!
+            </p>
+
+          </div>
+
+          <div class="hero-banner has-before">
+            <img src="Image/banner.png" width="431" height="596"
+              alt="things i never said, a novel by claudia wilson" class="w-100">
+
+          </div>
+
+        </div>
+      </section>
+
+        
+        <!-----------Gallery------------------->
+
+      <section class="section gallery" id="gallery" aria-label="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">gallery</p>
+
+          <h2 class="h2 section-title has-underline">
+            Photos
+            <span class="span has-before"></span>
+          </h2>
+
+          <ul class="tab-list">
+
+            <li>
+              <div class="tab-card active" data-tab-card>
+                <h3 class="h3 tab-text">Photo 1</h3>
+
+                <img src="Image/Gallery1.png" width="820" height="630" loading="lazy" alt="Chapter 1"
+                  class="w-100">
+              </div>
+            </li>
+
+            <li>
+              <div class="tab-card" data-tab-card>
+                <h3 class="h3 tab-text">Photo 2</h3>
+
+                <img src="Image/Gallery2.png" width="820" height="630" loading="lazy" alt="Chapter 2"
+                  class="w-100">
+              </div>
+            </li>
+
+            <li>
+              <div class="tab-card" data-tab-card>
+                <h3 class="h3 tab-text">Photo 3</h3>
+
+                <img src="Image/Gallery3.png" width="820" height="630" loading="lazy" alt="Chapter 3"
+                  class="w-100">
+              </div>
+            </li>
+
+            <li>
+              <div class="tab-card" data-tab-card>
+                <h3 class="h3 tab-text">Photo 4</h3>
+
+                <img src="Image/Gallery4.png" width="820" height="630" loading="lazy" alt="Chapter 4"
+                  class="w-100">
+              </div>
+            </li>
+
+            <li>
+              <div class="tab-card" data-tab-card>
+                <h3 class="h3 tab-text">Photo 5</h3>
+
+                <img src="Image/Gallery5.png" width="820" height="630" loading="lazy" alt="Chapter 5"
+                  class="w-100">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+  <script src="script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
